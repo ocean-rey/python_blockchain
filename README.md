@@ -2,10 +2,12 @@
 
 to run:
 
-python main.py
+>python main.py
 
 if that doesn't work:
 
-pipenv shell
+>pipenv shell
+
 *now in your virtual shell*
-python main.py
+
+>python main.py
