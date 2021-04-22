@@ -31,6 +31,7 @@ class Block:
         hash.update(bytes(self.time, "utf-8"))
         hash.update(bytes(self.data, "utf-8"))
         hash.update(bytes(self.nonce))
+        hash.update(bytes(self.prevHash, "utf-8"))
         digest = hash.hexdigest()
         return digest
 
